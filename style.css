@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(19, 131, 206);
+    color: #fff;
+}
+
+.player-options, .enemy-options{
+    width: 50%;
+    text-align: center;
+}
+
+.player-options img, .enemy-options img{
+    margin: 20px;
+    max-width: 130px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options img:hover{
+    transition: 0.2s ease-out;
+    transform: rotate(20deg)
+}
+
+.align{
+    display: flex;
+}
+
+h2.player-name, .player-name-ia{
+    padding: 20px;
+    text-transform: uppercase;
+    
+}
